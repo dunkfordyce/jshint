@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /*jshint boss: true */
 
 var JSHINT = require('../jshint').JSHINT,
@@ -10,7 +11,7 @@ var JSHINT = require('../jshint').JSHINT,
         input;
 
     if (!name) {
-        print('Usage: jshint.js file.js');
+        console.error('Usage: jshint.js file.js');
         process.exit(1);
     }
 

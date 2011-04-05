@@ -1,0 +1,10 @@
+{ "name" : "jshint"
+, "description" : "jshint"
+, "keywords" : [ ]
+, "version" : "0.1"
+, "tag" : "rc"
+, "homepage" : "http://jshint.org/"
+, "author" : "jshint.org"
+, "main": "jshint"
+, "bin" : {"jshint": "./env/node.js"}
+}
